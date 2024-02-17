@@ -1,0 +1,217 @@
+
+.DDD-img img{
+    width: 700px;
+  }
+
+  /* Banner */
+.banner-content > h1{
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  }
+  
+.banner-content > h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    }
+  
+.banner{
+    /*height: max-content;*/
+    /* width: max-content; */
+    background-position: cover;
+    background-position: top left;
+  }
+
+  #banner-DDD{
+    /*height: max-content;*/
+    /* width: max-content; */
+    background: url("#") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #banner-DDD1{
+    /*height: 2048;*/
+    /* width: 1194; */
+    background: url("#") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #bannerinicial {
+    background: url("#") no-repeat;
+    /* Propiedades opcionales para ajustar la imagen */
+    background-size: cover; /* Para ajustar el tamaño de la imagen al banner */
+    background-position: center; /* Para centrar la imagen en el banner */
+    /* Añade otras propiedades según necesites */
+  }
+  /* Fin Banner */
+
+
+/* Section */
+.section{
+    padding: auto;
+  }
+/* Section */
+
+/* Botones */
+.btn-primary{
+    color: white;
+    font-weight: bolder;
+    }
+
+.btn-outline-primary{
+      color: white;
+      background-color: #FE8B48;
+      border-color: #FE8B48;
+      
+      }
+
+  .btn-outline-primary:hover {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+  }
+
+  .btn-primary {
+    background-color: #FE8B48;
+    /* Otros estilos que desees aplicar al botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Si deseas eliminar el borde */
+    /* Puedes añadir más estilos según tu diseño */
+  }
+  .btn-primary:hover {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+  }
+/* Fin Botones */
+
+/* Espacio */
+.espacio {
+    margin-bottom: 100px; /* Ajusta la cantidad de espacio según tu preferencia */
+}
+/* Fin Espacio */
+
+/* Colores */
+.bg-DDD {
+  background-color: #004A87 !important; /* !important para priorizar este estilo sobre otros */
+}
+ 
+.text-colored {
+  color: white; /* Cambia el color a tu preferencia */
+  font-size: 20px;
+} 
+
+.text-coloredss {
+  color: white; /* Cambia el color a tu preferencia */
+  font-size: 15px;
+} 
+
+.text-coloreds {
+  color: #004A87; /* Cambia el color a tu preferencia */
+  font-size: 20px;
+} 
+
+.border-coloreds{
+  color: #004A87; /* Cambia el color a tu preferencia */
+}
+
+.text-coloredsss{
+  color: #004A87; /* Cambia el color a tu preferencia */
+  font-size: 30px;
+}
+
+.text-coloredssss{
+  color: #004A87; /* Cambia el color a tu preferencia */
+  font-size: 100px;
+  /*background:#004A87;*/
+  display: inline-block;
+  background-size: auto;
+  border-radius: 5px;
+}
+
+.nav-link{
+  font-size: 15px;
+}
+
+.text-coloredsssss{
+  color: #004A87; /* Cambia el color a tu preferencia */
+  font-size: 20px;
+}
+
+.border-colored {
+  border-color: #004A87 !important; /* Cambia el color del borde */
+}
+
+/*Colores*/
+
+/*Varios*/
+.Paises{
+ height: 100px;
+ width: 100px;
+}
+
+.card-text {
+  color: black; /* Letra blanca */
+  border: none; /* Sin bordes */
+  font-size: 10px; /* Tamaño de fuente de 10px */
+  text-decoration: none; /* Sin subrayado (eliminar estilo de enlace) */
+}
+
+#card-text1 {
+  color: black; /* Letra blanca */
+  border: none; /* Sin bordes */
+  font-size: 14px; /* Tamaño de fuente de 10px */
+  text-decoration: none; /* Sin subrayado (eliminar estilo de enlace) */
+}
+
+.Paises-text{
+  color: black; /* Letra blanca */
+  border: none; /* Sin bordes */
+  font-size: 10px; /* Tamaño de fuente de 10px */
+  text-decoration: none; /* Sin subrayado (eliminar estilo de enlace) */
+}
+
+.text-black{
+  color: black; /* Letra blanca */
+  font-size: 20px; /* Tamaño de fuente de 10px */
+}
+
+.text-black1{
+  color: black; /* Letra blanca */
+  font-size: 15px; /* Tamaño de fuente de 10px */
+}
+
+
+.container_paises{
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 1px; 
+  border-radius: 6px;
+  overflow: hidden;
+  background: #4e73df;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+/*Varios*/
+
+#background-DDD {
+  background-image: url("#"), url("#");
+  background-size: auto, auto;/* Divide el contenedor en dos partes iguales para cada imagen */
+  background-position: top, top; /* Coloca la primera imagen arriba y la segunda también arriba */
+  background-repeat: repeat-y,repeat; /* Repetir solo verticalmente  */
+  /* Otros estilos según sea necesario */
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
